@@ -34,3 +34,20 @@ input {
   border: 1px solid white;
   margin-top: 20px;
 }
+
+button {
+  background: #debff4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 10vw;
+  font-size: 15px;
+  transition: ease-in-out 0.3s;
+}
+
+button:hover {
+  background: #8b48d7;
+}
