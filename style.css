@@ -1,0 +1,20 @@
+body {
+  background: #8c52ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.weather-container {
+  background: (255, 255, 255, 0.3);
+  max-width: 40vw;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgb(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid (255, 255, 255, 0.1);
+  text-align: center;
+}
