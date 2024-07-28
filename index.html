@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" type="module"></script>
     <title>Weather</title>
   </head>
   <body>
@@ -13,10 +12,13 @@
       <input type="text" id="city-input" placeholder="Enter City" />
       <button onclick="getWeather()">Search</button>
 
-      <img src="" alt="weather Icon" class="weather-icon" />
-      <section class="temp-container"></section>
-      <section class="weather-info"></section>
-      <section class="forecast"></section>
+      <section class="weather-display">
+        <img src="" alt="weather Icon" id="weather-icon" />
+        <section class="temp-container"></section>
+        <section class="weather-info"></section>
+        <section class="forecast"></section>
+      </section>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

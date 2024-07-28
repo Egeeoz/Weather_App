@@ -2,13 +2,14 @@ body {
   background: #8c52ff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 100vh;
   margin: 0;
 }
 
 .weather-container {
+  margin-top: 2rem;
   background: rgba(255, 255, 255, 0.3);
   max-width: 40vw;
   height: 18vh;
@@ -62,7 +63,7 @@ button:hover {
   font-size: 20px;
 }
 
-.weather-icon {
+#weather-icon {
   width: 20vw;
   height: 1/1;
   margin: 0 auto 10px;
@@ -71,7 +72,7 @@ button:hover {
 }
 
 .forecast {
-  margin-top: 50px;
+  margin-top: 20px;
   overflow-x: auto;
   white-space: nowrap;
   display: flex;
@@ -90,7 +91,7 @@ button:hover {
 
 .hourly-item img {
   width: 30px;
-  height: 3px;
+  height: 1/1;
   margin-bottom: 5px;
 }
 
