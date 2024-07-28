@@ -8,14 +8,17 @@
   </head>
   <body>
     <main class="weather-container">
-      <h2>Weather App</h2>
-      <input type="text" id="city-input" placeholder="Enter City" />
-      <button onclick="getWeather()">Search</button>
-
+      <section class="input-container">
+        <h2>Weather App</h2>
+        <input type="text" id="city-input" placeholder="Enter City" />
+        <button onclick="getWeather()">Search</button>
+      </section>
       <section class="weather-display">
-        <img src="" alt="weather Icon" id="weather-icon" />
-        <section class="temp-container"></section>
-        <section class="weather-info"></section>
+        <section class="current-weather">
+          <img src="" alt="weather Icon" id="weather-icon" />
+          <section class="temp-container"></section>
+          <section class="weather-info"></section>
+        </section>
         <section class="forecast"></section>
       </section>
     </main>
