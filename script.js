@@ -1,3 +1,4 @@
+// API key from https://openweathermap.org/, create account or login to create api key
 async function getWeather() {
   const weatherApiKey = 'YOUR-API-KEY';
   const city = document.getElementById('city-input').value;
