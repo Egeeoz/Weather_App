@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather</title>
   </head>
   <body>
     <main class="weather-container">
       <section class="input-container">
-        <h2>Weather App</h2>
+        <h2>Search City Weather</h2>
         <input type="text" id="city-input" placeholder="Enter City" />
         <button onclick="getWeather()">Search</button>
       </section>
@@ -19,7 +23,10 @@
           <section class="temp-container"></section>
           <section class="weather-info"></section>
         </section>
-        <section class="forecast"></section>
+        <section class="forecast-container">
+          <h3>3 Hour Interval Forecast</h3>
+          <section class="forecast"></section>
+        </section>
       </section>
     </main>
     <script src="./script.js"></script>
