@@ -60,6 +60,10 @@ body {
   border-top: 1px solid black;
 }
 
+.current-weather * {
+  color: black;
+}
+
 .input-container h2 {
   color: black;
   padding-top: 0.8rem;
@@ -234,7 +238,7 @@ button:hover {
   }
 }
 
-@media only screen and (max-width: 380px) {
+/* @media only screen and (max-width: 390px) {
   body {
     height: 120vh;
   }
@@ -299,5 +303,70 @@ button:hover {
     height: 1/1;
     margin: 0 auto;
     display: none;
+  }
+} */
+
+@media only screen and (max-width: 390px) {
+  body {
+    height: auto;
+  }
+
+  .weather-container {
+    min-height: 120vh;
+    height: auto;
+  }
+
+  .input-container {
+    width: 90%;
+    height: 25vh;
+  }
+
+  .weather-display {
+    padding-top: 1rem;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .current-weather {
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  input {
+    width: 80%;
+    height: 5vh;
+  }
+
+  h2 {
+    color: #fff;
+    margin: 0.2rem 0;
+  }
+
+  button {
+    width: 50%;
+  }
+
+  .forecast-container {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .forecast {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .hourly-item img {
+    width: 70%;
+    height: auto;
+  }
+
+  .hourly-item {
+    flex-direction: row;
+    font-size: 1.3rem;
   }
 }
